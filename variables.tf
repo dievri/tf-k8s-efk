@@ -9,13 +9,11 @@ variable "elasticsearch_domain" {
 variable "access_key" {
   description = "AWS root user access_key"
   sensitive = true
-  default = ""
 }
 
 variable "secret_key" {
   description = "AWS root user secret key"
   sensitive = true
-  default = ""
 }
 
 variable "cluster_name" {
